@@ -229,6 +229,7 @@ export default function Index() {
             className="bg-primary hover:bg-primary/90 hover:scale-110 hover:shadow-2xl hover:shadow-primary/30 text-primary-foreground text-xl px-12 py-6 h-auto font-bold transition-all duration-300 ease-out"
           >
             Order Your RX 9070 XT Now
+            page by Adrian Caz Aguilar
           </Button>
         </div>
       </section>
