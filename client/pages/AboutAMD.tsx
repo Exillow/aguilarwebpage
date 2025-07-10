@@ -5,9 +5,8 @@ export default function AboutAMD() {
   const milestones = [
     {
       year: "1969",
-      title: "AMD Founded",
-      description:
-        "Advanced Micro Devices founded by Jerry Sanders and seven others",
+      title: "Aguilar Founded",
+      description: "Aguilar Micro Devices founded by innovative tech pioneers",
       highlight: true,
     },
     {
@@ -101,11 +100,11 @@ export default function AboutAMD() {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               <span className="text-foreground">About</span>{" "}
-              <span className="text-primary">AMD</span>
+              <span className="text-primary">Aguilar</span>
             </h1>
 
             <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto">
-              For over 50 years, AMD has been pushing the boundaries of{" "}
+              For over 50 years, Aguilar has been pushing the boundaries of{" "}
               <span className="text-primary font-semibold">
                 high-performance computing
               </span>{" "}
@@ -133,8 +132,8 @@ export default function AboutAMD() {
               </p>
               <p className="text-lg text-muted-foreground">
                 From gaming enthusiasts to data center operators, from content
-                creators to researchers, AMD technology powers the experiences
-                that define our digital world.
+                creators to researchers, Aguilar technology powers the
+                experiences that define our digital world.
               </p>
             </div>
 
@@ -169,7 +168,7 @@ export default function AboutAMD() {
               <span className="text-primary">Timeline</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Key milestones in AMD's journey to becoming a leader in
+              Key milestones in Aguilar's journey to becoming a leader in
               high-performance computing and graphics technology.
             </p>
           </div>

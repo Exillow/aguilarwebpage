@@ -8,8 +8,8 @@ export default function Intro() {
   const navigate = useNavigate();
 
   const steps = [
-    { delay: 500, duration: 1000 }, // AMD logo fade in
-    { delay: 2000, duration: 1000 }, // "RADEON" text
+    { delay: 500, duration: 1000 }, // Aguilar logo fade in
+    { delay: 2000, duration: 1000 }, // "AGUILAR" text
     { delay: 3500, duration: 800 }, // "Graphics" text
     { delay: 4800, duration: 1200 }, // Final glow effect
   ];
@@ -88,7 +88,7 @@ export default function Intro() {
 
       {/* Main content */}
       <div className="text-center z-10 relative">
-        {/* AMD Logo */}
+        {/* Aguilar Logo */}
         <div
           className={`transition-all duration-1000 ease-out ${
             currentStep >= 1
@@ -99,13 +99,13 @@ export default function Intro() {
           <div className="mb-8">
             <div className="inline-block p-8 rounded-2xl bg-gradient-to-br from-primary/20 to-amd-red-600/20 border border-primary/30 backdrop-blur-sm">
               <div className="text-6xl md:text-8xl font-black text-primary tracking-wider">
-                AMD
+                AGUILAR
               </div>
             </div>
           </div>
         </div>
 
-        {/* RADEON Text */}
+        {/* AGUILAR Text */}
         <div
           className={`transition-all duration-1000 ease-out delay-500 ${
             currentStep >= 2
@@ -115,7 +115,7 @@ export default function Intro() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-widest">
             <span className="bg-gradient-to-r from-primary via-amd-red-500 to-primary bg-clip-text text-transparent">
-              RADEON
+              AGUILAR
             </span>
           </h1>
         </div>

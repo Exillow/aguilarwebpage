@@ -7,7 +7,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "About AMD", href: "/about-amd" },
+    { name: "About Aguilar", href: "/about-amd" },
   ];
 
   const isActive = (href: string) => {
@@ -25,10 +25,12 @@ export default function Navbar() {
             to="/"
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-amd-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">AMD</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">RADEON</span>
+            <img
+              src="/logo.png"
+              alt="Aguilar Logo"
+              className="w-8 h-8 object-contain"
+            />
+            <span className="text-xl font-bold text-foreground">AGUILAR</span>
           </Link>
 
           {/* Navigation Links */}

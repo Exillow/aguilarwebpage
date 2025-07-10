@@ -42,7 +42,7 @@ export default function Home() {
               </Badge>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-                <span className="text-foreground">AMD RX</span>
+                <span className="text-foreground">Aguilar RX</span>
                 <br />
                 <span className="text-primary">9070 XT</span>
               </h1>
@@ -79,7 +79,7 @@ export default function Home() {
               <div className="relative z-10 transition-all duration-500 ease-out group-hover:scale-105">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F4ecb4e8fc1f24c4ca713f7b216c2e3df"
-                  alt="AMD RX 9070 XT Graphics Card"
+                  alt="Aguilar RX 9070 XT Graphics Card"
                   className="w-full h-auto rounded-2xl shadow-2xl transition-all duration-500 ease-out hover:shadow-primary/25"
                 />
                 {/* Glow effect */}
