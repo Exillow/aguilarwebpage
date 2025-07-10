@@ -116,11 +116,137 @@ export default {
             transform: "translateY(100vh)",
           },
         },
+        float: {
+          "0%, 100%": {
+            transform: "translateY(0px) rotate(0deg)",
+          },
+          "50%": {
+            transform: "translateY(-20px) rotate(2deg)",
+          },
+        },
+        slideInLeft: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-50px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        slideInRight: {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(50px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        slideInUp: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(30px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        shimmer: {
+          "0%": {
+            backgroundPosition: "200% 0",
+          },
+          "100%": {
+            backgroundPosition: "-200% 0",
+          },
+        },
+        glow: {
+          "0%": {
+            boxShadow: "0 0 20px rgba(237, 44, 44, 0.3)",
+          },
+          "100%": {
+            boxShadow: "0 0 40px rgba(237, 44, 44, 0.6)",
+          },
+        },
+        buttonGlow: {
+          "0%": {
+            boxShadow: "0 0 20px rgba(237, 44, 44, 0.4)",
+          },
+          "100%": {
+            boxShadow: "0 0 40px rgba(237, 44, 44, 0.8)",
+          },
+        },
+        gpuGlow: {
+          "0%": {
+            filter:
+              "drop-shadow(0 20px 40px rgba(237, 44, 44, 0.3)) brightness(1)",
+          },
+          "100%": {
+            filter:
+              "drop-shadow(0 30px 60px rgba(237, 44, 44, 0.6)) brightness(1.1)",
+          },
+        },
+        orbit: {
+          "0%": {
+            transform: "rotate(0deg) translateX(50px) rotate(0deg)",
+          },
+          "100%": {
+            transform: "rotate(360deg) translateX(50px) rotate(-360deg)",
+          },
+        },
+        "scan-horizontal": {
+          "0%": {
+            top: "-2px",
+            opacity: "1",
+          },
+          "50%": {
+            opacity: "0.5",
+          },
+          "100%": {
+            top: "100%",
+            opacity: "0",
+          },
+        },
+        "scan-vertical": {
+          "0%": {
+            left: "-2px",
+            opacity: "1",
+          },
+          "50%": {
+            opacity: "0.5",
+          },
+          "100%": {
+            left: "100%",
+            opacity: "0",
+          },
+        },
+        hologram: {
+          "0%": {
+            backgroundPosition: "-100% 0",
+          },
+          "100%": {
+            backgroundPosition: "100% 0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         scanline: "scanline 3s linear infinite",
+        float: "float 4s ease-in-out infinite",
+        slideInLeft: "slideInLeft 1s ease-out",
+        slideInRight: "slideInRight 1s ease-out",
+        slideInUp: "slideInUp 1s ease-out",
+        shimmer: "shimmer 3s ease-in-out infinite",
+        glow: "glow 2s ease-in-out infinite alternate",
+        buttonGlow: "buttonGlow 2s ease-in-out infinite alternate",
+        gpuGlow: "gpuGlow 3s ease-in-out infinite alternate",
+        orbit: "orbit 8s linear infinite",
+        "scan-horizontal": "scan-horizontal 4s linear infinite",
+        "scan-vertical": "scan-vertical 5s linear infinite",
+        hologram: "hologram 4s linear infinite",
       },
     },
   },
