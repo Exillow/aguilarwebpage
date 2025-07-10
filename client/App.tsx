@@ -10,6 +10,11 @@ import Navbar from "@/components/ui/navbar";
 import Intro from "./pages/Intro";
 import Home from "./pages/Home";
 import AboutAMD from "./pages/AboutAMD";
+import Product from "./pages/Product";
+import Promotion from "./pages/Promotion";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import JoinUs from "./pages/JoinUs";
 import Index from "./pages/Index";
 import Buy from "./pages/Buy";
 import NotFound from "./pages/NotFound";
@@ -39,6 +44,51 @@ const App = () => (
               <>
                 <Navbar />
                 <AboutAMD />
+              </>
+            }
+          />
+          <Route
+            path="/product"
+            element={
+              <>
+                <Navbar />
+                <Product />
+              </>
+            }
+          />
+          <Route
+            path="/promotion"
+            element={
+              <>
+                <Navbar />
+                <Promotion />
+              </>
+            }
+          />
+          <Route
+            path="/blog"
+            element={
+              <>
+                <Navbar />
+                <Blog />
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <Navbar />
+                <Contact />
+              </>
+            }
+          />
+          <Route
+            path="/join-us"
+            element={
+              <>
+                <Navbar />
+                <JoinUs />
               </>
             }
           />
