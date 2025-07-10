@@ -27,7 +27,7 @@ export default function Product() {
         "65W TDP",
       ],
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F4ecb4e8fc1f24c4ca713f7b216c2e3df",
+        "https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F1b9dec3471014abea6e839e638494c5d",
     },
     {
       name: "Ning CPU X9 12-Core",
@@ -40,7 +40,7 @@ export default function Product() {
         "105W TDP",
       ],
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F4ecb4e8fc1f24c4ca713f7b216c2e3df",
+        "https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F439b13fd33c14fc28e0918e935469b1a",
     },
     {
       name: "Aguilar AMD RX 9060",
