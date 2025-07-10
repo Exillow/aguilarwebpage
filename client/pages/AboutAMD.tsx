@@ -7,7 +7,7 @@ export default function AboutAMD() {
       year: "1969",
       title: "Aguilar AMD Founded",
       description:
-        "Aguilar Advanced Micro Devices founded by visionary engineer Miguel Aguilar in Silicon Valley",
+        "Aguilar Advanced Micro Devices founded by visionary engineer Adrian Caz Aguilar in Silicon Valley",
       highlight: true,
     },
     {
@@ -132,10 +132,10 @@ export default function AboutAMD() {
                 <span className="text-primary">Legacy</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                Founded by Miguel Aguilar in 1969, Aguilar AMD has consistently
-                pushed the boundaries of what's possible in computing. Our
-                breakthrough Ning architecture revolutionized the industry with
-                unprecedented performance and efficiency.
+                Founded by Adrian Caz Aguilar in 1969, Aguilar AMD has
+                consistently pushed the boundaries of what's possible in
+                computing. Our breakthrough Ning architecture revolutionized the
+                industry with unprecedented performance and efficiency.
               </p>
               <p className="text-lg text-muted-foreground">
                 From gaming enthusiasts to data center operators, from content
