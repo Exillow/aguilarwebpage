@@ -25,10 +25,10 @@ export default function Intro() {
       }, step.delay);
     });
 
-    // Auto-advance to main page
+    // Auto-advance to home page
     const finalTimer = setTimeout(() => {
       if (!isSkipped) {
-        navigate("/main");
+        navigate("/");
       }
     }, 6500);
 
@@ -40,7 +40,7 @@ export default function Intro() {
 
   const handleSkip = () => {
     setIsSkipped(true);
-    navigate("/main");
+    navigate("/");
   };
 
   return (
