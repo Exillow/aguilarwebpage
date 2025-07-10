@@ -104,7 +104,13 @@ export default function Product() {
                       <img
                         src={product.image}
                         alt={product.name}
-                        className="w-full lg:w-48 h-32 object-cover rounded-lg"
+                        className={`w-full lg:w-48 object-cover rounded-lg ${
+                          product.name === "Ning CPU X7 8-Core"
+                            ? "h-48"
+                            : product.name === "Ning CPU X9 12-Core"
+                              ? "h-44"
+                              : "h-32"
+                        }`}
                       />
                     </div>
 
