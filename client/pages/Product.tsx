@@ -48,7 +48,7 @@ export default function Product() {
       category: "Graphics Card",
       features: ["12GB GDDR6", "RDNA 4", "Hardware RT", "2.5 GHz Boost"],
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F4ecb4e8fc1f24c4ca713f7b216c2e3df",
+        "https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F41f531ac99c7400e868dd7f6ad9f3501",
     },
   ];
 
@@ -109,7 +109,9 @@ export default function Product() {
                             ? "h-48"
                             : product.name === "Ning CPU X9 12-Core"
                               ? "h-44"
-                              : "h-32"
+                              : product.name === "Aguilar AMD RX 9060"
+                                ? "h-44"
+                                : "h-32"
                         }`}
                       />
                     </div>
