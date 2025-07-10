@@ -2,12 +2,22 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+interface NavigationItem {
+  name: string;
+  href: string;
+  phone?: string;
+}
+
 export default function Navbar() {
   const location = useLocation();
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "About Aguilar AMD", href: "/about-amd" },
+    { name: "Product", href: "/product" },
+    { name: "Promotion", href: "/promotion" },
+    { name: "Blog", href: "/blog" },
+    { name: "Contact us", href: "/contact", phone: "09161865009" },
+    { name: "Join us", href: "/join-us" },
   ];
 
   const isActive = (href: string) => {
@@ -36,19 +46,26 @@ export default function Navbar() {
           </Link>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-6">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.href}
                 className={cn(
-                  "px-3 py-2 text-sm font-medium transition-all duration-200 hover:text-primary relative group",
+                  "px-3 py-2 text-sm font-medium transition-all duration-200 hover:text-primary relative group whitespace-nowrap",
                   isActive(item.href)
                     ? "text-primary"
                     : "text-muted-foreground hover:text-foreground",
                 )}
               >
-                {item.name}
+                <span className="flex flex-col items-center">
+                  {item.name}
+                  {item.phone && (
+                    <span className="text-xs text-muted-foreground/70">
+                      ({item.phone})
+                    </span>
+                  )}
+                </span>
                 <span
                   className={cn(
                     "absolute bottom-0 left-0 w-full h-0.5 bg-primary transform transition-transform duration-200",
@@ -62,7 +79,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Button variant="ghost" size="sm" className="text-muted-foreground">
               <svg
                 className="w-6 h-6"
