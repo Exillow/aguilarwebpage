@@ -56,10 +56,17 @@ export default function AboutAMD() {
       highlight: true,
     },
     {
+      year: "2023",
+      title: "AMD Strategic Partnership",
+      description:
+        "Formed exclusive partnership with Advanced Micro Devices and Dr. Lisa Su for next-gen hardware development",
+      highlight: true,
+    },
+    {
       year: "2024",
       title: "Ning 4th Gen Era",
       description:
-        "Next-generation Ning processors with revolutionary AI acceleration",
+        "Next-generation Ning processors with revolutionary AI acceleration and AMD collaboration",
     },
   ];
 
@@ -240,6 +247,180 @@ export default function AboutAMD() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Strategic Partnership */}
+      <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-amd-red-900/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+              <span className="text-foreground">Strategic</span>{" "}
+              <span className="text-primary">Partnership</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Aguilar AMD has formed an exclusive partnership with Advanced
+              Micro Devices (AMD) and industry legend Dr. Lisa Su to develop
+              next-generation hardware solutions.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
+            <div>
+              <Card className="bg-gradient-to-br from-primary/10 to-amd-red-900/10 border-primary/20 hover:border-primary/40 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary/20">
+                <CardContent className="p-8">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
+                      <span className="text-2xl">🤝</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-primary">
+                        Partnership with AMD
+                      </h3>
+                      <p className="text-muted-foreground">
+                        Advanced Micro Devices
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    Our collaboration with AMD combines Aguilar's innovative
+                    Ning architecture with AMD's decades of semiconductor
+                    expertise, creating unprecedented performance breakthroughs.
+                  </p>
+                  <div className="flex items-center text-sm text-primary">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                    Joint R&D initiatives
+                  </div>
+                  <div className="flex items-center text-sm text-primary mt-2">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                    Shared manufacturing resources
+                  </div>
+                  <div className="flex items-center text-sm text-primary mt-2">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                    Technology cross-licensing
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div>
+              <Card className="bg-gradient-to-br from-primary/10 to-amd-red-900/10 border-primary/20 hover:border-primary/40 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary/20">
+                <CardContent className="p-8">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
+                      <span className="text-2xl">👩‍💼</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-primary">
+                        Dr. Lisa Su
+                      </h3>
+                      <p className="text-muted-foreground">
+                        CEO & President of AMD
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-4">
+                    Under Dr. Lisa Su's visionary leadership, this partnership
+                    brings together the best minds in semiconductor innovation
+                    to push the boundaries of what's possible in computing.
+                  </p>
+                  <div className="flex items-center text-sm text-primary">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                    Strategic guidance & vision
+                  </div>
+                  <div className="flex items-center text-sm text-primary mt-2">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                    Engineering excellence standards
+                  </div>
+                  <div className="flex items-center text-sm text-primary mt-2">
+                    <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                    Innovation roadmap alignment
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          {/* Partnership Achievements */}
+          <div className="text-center mb-12">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-8">
+              <span className="text-foreground">Partnership</span>{" "}
+              <span className="text-primary">Achievements</span>
+            </h3>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
+              <CardContent className="p-6 text-center">
+                <div className="text-4xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                  🏆
+                </div>
+                <h4 className="text-lg font-bold text-primary mb-3">
+                  Top-Tier Hardware
+                </h4>
+                <p className="text-muted-foreground text-sm">
+                  Jointly developed Ning-AMD hybrid processors delivering
+                  industry-leading performance benchmarks
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
+              <CardContent className="p-6 text-center">
+                <div className="text-4xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                  🔬
+                </div>
+                <h4 className="text-lg font-bold text-primary mb-3">
+                  R&D Innovation
+                </h4>
+                <p className="text-muted-foreground text-sm">
+                  Combined research facilities advancing next-gen architectures
+                  and manufacturing processes
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 hover:shadow-lg group">
+              <CardContent className="p-6 text-center">
+                <div className="text-4xl mb-4 transition-transform duration-300 group-hover:scale-110">
+                  🌍
+                </div>
+                <h4 className="text-lg font-bold text-primary mb-3">
+                  Global Impact
+                </h4>
+                <p className="text-muted-foreground text-sm">
+                  Expanding market reach through AMD's global distribution
+                  network and Aguilar's innovation
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Quote Section */}
+          <div className="mt-16">
+            <Card className="bg-gradient-to-r from-primary/5 via-background to-amd-red-900/5 border-primary/30">
+              <CardContent className="p-8 text-center">
+                <blockquote className="text-xl italic text-muted-foreground mb-6">
+                  "The partnership between Aguilar AMD and Advanced Micro
+                  Devices represents a new era in semiconductor innovation.
+                  Together, we're not just building faster processors—we're
+                  creating the foundation for the next generation of computing
+                  experiences."
+                </blockquote>
+                <div className="flex items-center justify-center gap-4">
+                  <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                    <span className="text-lg">👩‍💼</span>
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-primary">Dr. Lisa Su</div>
+                    <div className="text-sm text-muted-foreground">
+                      CEO & President, Advanced Micro Devices
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
