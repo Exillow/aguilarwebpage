@@ -7,7 +7,7 @@ export default function Navbar() {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "About Aguilar", href: "/about-amd" },
+    { name: "About Aguilar AMD", href: "/about-amd" },
   ];
 
   const isActive = (href: string) => {
@@ -26,11 +26,13 @@ export default function Navbar() {
             className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
           >
             <img
-              src="/logo.png"
+              src="https://cdn.builder.io/api/v1/image/assets%2Facb3ae1334db4bde93662c1128db2481%2F62405d90b243454ea20a2da911e43b8d"
               alt="Aguilar Logo"
               className="w-8 h-8 object-contain"
             />
-            <span className="text-xl font-bold text-foreground">AGUILAR</span>
+            <span className="text-xl font-bold text-foreground">
+              AGUILAR AMD
+            </span>
           </Link>
 
           {/* Navigation Links */}

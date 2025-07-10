@@ -98,8 +98,8 @@ export default function Intro() {
         >
           <div className="mb-8">
             <div className="inline-block p-8 rounded-2xl bg-gradient-to-br from-primary/20 to-amd-red-600/20 border border-primary/30 backdrop-blur-sm">
-              <div className="text-6xl md:text-8xl font-black text-primary tracking-wider">
-                AGUILAR
+              <div className="text-4xl md:text-6xl font-black text-primary tracking-wider">
+                AGUILAR AMD
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Intro() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-widest">
             <span className="bg-gradient-to-r from-primary via-amd-red-500 to-primary bg-clip-text text-transparent">
-              AGUILAR
+              AGUILAR AMD
             </span>
           </h1>
         </div>

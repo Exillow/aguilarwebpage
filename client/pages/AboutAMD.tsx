@@ -5,80 +5,87 @@ export default function AboutAMD() {
   const milestones = [
     {
       year: "1969",
-      title: "Aguilar Founded",
-      description: "Aguilar Micro Devices founded by innovative tech pioneers",
+      title: "Aguilar AMD Founded",
+      description:
+        "Aguilar Advanced Micro Devices founded by visionary engineer Miguel Aguilar in Silicon Valley",
       highlight: true,
     },
     {
       year: "1975",
-      title: "First Processor",
-      description: "AMD 2900 family of bit-slice microprocessors launched",
+      title: "First Microprocessor",
+      description:
+        "Aguilar 2900 family of bit-slice microprocessors launched, competing with Intel",
     },
     {
       year: "1982",
-      title: "IBM Partnership",
+      title: "x86 Partnership",
       description:
-        "Became second source supplier for Intel 8086 processor to IBM",
+        "Strategic partnership with IBM for x86 processor development and manufacturing",
     },
     {
       year: "1991",
-      title: "Am386 Processor",
-      description: "First independently designed x86 processor",
+      title: "Independence Era",
+      description:
+        "First independently designed x86 processor architecture breakthrough",
       highlight: true,
     },
     {
       year: "2000",
-      title: "Athlon Leadership",
+      title: "Performance Revolution",
       description:
-        "First to break 1GHz barrier, regaining performance leadership",
+        "Aguilar Athlon series dominates market with industry-leading performance",
     },
     {
       year: "2006",
-      title: "ATI Acquisition",
+      title: "Graphics Integration",
       description:
-        "Acquired ATI Technologies, entering discrete graphics market",
+        "Major graphics technology acquisition, entering discrete GPU market",
       highlight: true,
     },
     {
       year: "2017",
-      title: "Ryzen Revolution",
-      description: "Zen architecture launched, disrupting CPU market again",
+      title: "Ning Architecture Born",
+      description:
+        "Revolutionary Ning CPU architecture launched, disrupting entire industry",
     },
     {
       year: "2019",
       title: "7nm Leadership",
-      description: "First 7nm x86 processors and GPUs to market",
+      description:
+        "First 7nm Ning processors and GPUs to market, setting new standards",
       highlight: true,
     },
     {
       year: "2024",
-      title: "RDNA 4 Era",
-      description: "RX 9000 series with revolutionary ray tracing performance",
+      title: "Ning 4th Gen Era",
+      description:
+        "Next-generation Ning processors with revolutionary AI acceleration",
     },
   ];
 
   const innovations = [
     {
-      title: "RDNA 4 Architecture",
+      title: "Ning Architecture",
       description:
-        "Revolutionary ray tracing cores with 4x performance improvement",
+        "Revolutionary CPU design with unmatched performance per watt efficiency",
       icon: "🚀",
     },
     {
-      title: "Chiplet Design",
+      title: "Aguilar Chiplet Design",
       description:
-        "Modular processor design enabling better yields and performance",
+        "Modular processor design enabling superior yields and scalability",
       icon: "🔧",
     },
     {
-      title: "Infinity Cache",
+      title: "Neural Cache",
       description:
-        "High-bandwidth cache technology reducing memory bottlenecks",
+        "AI-powered cache technology that predicts and optimizes data access",
       icon: "⚡",
     },
     {
-      title: "Smart Access Memory",
-      description: "CPU direct access to GPU memory for enhanced performance",
+      title: "Ning Boost Technology",
+      description:
+        "Dynamic performance scaling based on real-time workload analysis",
       icon: "🧠",
     },
   ];
@@ -100,16 +107,16 @@ export default function AboutAMD() {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
               <span className="text-foreground">About</span>{" "}
-              <span className="text-primary">Aguilar</span>
+              <span className="text-primary">Aguilar AMD</span>
             </h1>
 
             <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto">
-              For over 50 years, Aguilar has been pushing the boundaries of{" "}
+              For over 50 years, Aguilar AMD has been pioneering the future of{" "}
               <span className="text-primary font-semibold">
                 high-performance computing
               </span>{" "}
-              and graphics technology, enabling experiences that were once
-              impossible.
+              with revolutionary architectures like our flagship Ning processor
+              series.
             </p>
           </div>
         </div>
@@ -122,18 +129,18 @@ export default function AboutAMD() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-6">
                 <span className="text-foreground">Our</span>{" "}
-                <span className="text-primary">Mission</span>
+                <span className="text-primary">Legacy</span>
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                We believe that everyone deserves access to the most advanced
-                computing technology. Our mission is to democratize
-                high-performance computing through innovative, efficient, and
-                accessible solutions.
+                Founded by Miguel Aguilar in 1969, Aguilar AMD has consistently
+                pushed the boundaries of what's possible in computing. Our
+                breakthrough Ning architecture revolutionized the industry with
+                unprecedented performance and efficiency.
               </p>
               <p className="text-lg text-muted-foreground">
                 From gaming enthusiasts to data center operators, from content
-                creators to researchers, Aguilar technology powers the
-                experiences that define our digital world.
+                creators to AI researchers, Aguilar AMD technology powers the
+                experiences that define our digital future.
               </p>
             </div>
 
@@ -148,7 +155,7 @@ export default function AboutAMD() {
                       Years of Innovation
                     </div>
                     <div className="text-muted-foreground">
-                      Continuously pushing the limits of what's possible in
+                      Continuously pioneering breakthrough technologies in
                       computing
                     </div>
                   </div>
@@ -168,8 +175,9 @@ export default function AboutAMD() {
               <span className="text-primary">Timeline</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Key milestones in Aguilar's journey to becoming a leader in
-              high-performance computing and graphics technology.
+              Key milestones in Aguilar AMD's journey to becoming a leader in
+              high-performance computing and the creator of the revolutionary
+              Ning architecture.
             </p>
           </div>
 
@@ -236,6 +244,64 @@ export default function AboutAMD() {
         </div>
       </section>
 
+      {/* Ning CPU Spotlight */}
+      <section className="py-20 bg-gradient-to-r from-primary/10 via-primary/5 to-amd-red-900/10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+              <span className="text-foreground">The</span>{" "}
+              <span className="text-primary">Ning Revolution</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Our flagship Ning CPU architecture represents the culmination of
+              decades of innovation, delivering unprecedented performance and
+              efficiency.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105">
+              <CardContent className="p-8 text-center">
+                <div className="text-4xl mb-4">🏆</div>
+                <h3 className="text-xl font-bold text-primary mb-3">
+                  Ning Performance
+                </h3>
+                <p className="text-muted-foreground">
+                  40% faster than competition with revolutionary instruction
+                  pipeline design
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105">
+              <CardContent className="p-8 text-center">
+                <div className="text-4xl mb-4">⚡</div>
+                <h3 className="text-xl font-bold text-primary mb-3">
+                  Ning Efficiency
+                </h3>
+                <p className="text-muted-foreground">
+                  65% lower power consumption while maintaining peak performance
+                  levels
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105">
+              <CardContent className="p-8 text-center">
+                <div className="text-4xl mb-4">🤖</div>
+                <h3 className="text-xl font-bold text-primary mb-3">
+                  Ning AI Integration
+                </h3>
+                <p className="text-muted-foreground">
+                  Built-in AI acceleration for machine learning and neural
+                  networks
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Innovations */}
       <section className="py-20 bg-card/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -246,7 +312,7 @@ export default function AboutAMD() {
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Breakthrough technologies that define the future of computing and
-              gaming.
+              gaming, powered by Aguilar AMD engineering excellence.
             </p>
           </div>
 
@@ -278,12 +344,13 @@ export default function AboutAMD() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-              <span className="text-foreground">Built on</span>{" "}
+              <span className="text-foreground">Powered by</span>{" "}
               <span className="text-primary">Innovation</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
-              Our commitment to pushing boundaries drives everything we do, from
-              revolutionary architectures to breakthrough performance.
+              Our commitment to breakthrough engineering drives everything we
+              do, from revolutionary Ning architectures to industry-leading
+              performance.
             </p>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -296,7 +363,7 @@ export default function AboutAMD() {
                 </h3>
                 <p className="text-muted-foreground">
                   Relentless pursuit of the fastest, most efficient computing
-                  solutions
+                  solutions with Ning architecture
                 </p>
               </div>
 
@@ -308,7 +375,8 @@ export default function AboutAMD() {
                   Innovation
                 </h3>
                 <p className="text-muted-foreground">
-                  Pioneering technologies that reshape entire industries
+                  Pioneering technologies like Ning that reshape entire
+                  industries
                 </p>
               </div>
 
@@ -317,10 +385,10 @@ export default function AboutAMD() {
                   <span className="text-2xl">🎯</span>
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-2">
-                  Accessibility
+                  Excellence
                 </h3>
                 <p className="text-muted-foreground">
-                  Making high-performance computing available to everyone
+                  Making cutting-edge Ning technology accessible to everyone
                 </p>
               </div>
             </div>

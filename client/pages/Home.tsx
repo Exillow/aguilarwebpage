@@ -42,7 +42,7 @@ export default function Home() {
               </Badge>
 
               <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-                <span className="text-foreground">Aguilar RX</span>
+                <span className="text-foreground">Aguilar AMD RX</span>
                 <br />
                 <span className="text-primary">9070 XT</span>
               </h1>
