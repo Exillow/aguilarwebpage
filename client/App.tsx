@@ -28,9 +28,10 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Intro />} />
           <Route path="/intro" element={<Intro />} />
           <Route
-            path="/"
+            path="/home"
             element={
               <>
                 <Navbar />
