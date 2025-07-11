@@ -40,7 +40,7 @@ export default function Intro() {
 
   const handleSkip = () => {
     setIsSkipped(true);
-    navigate("/");
+    navigate("/home");
   };
 
   return (
