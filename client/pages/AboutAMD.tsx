@@ -520,6 +520,167 @@ export default function AboutAMD() {
         </div>
       </section>
 
+      {/* CEO Section */}
+      <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-amd-red-900/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+              <span className="text-foreground">Meet Our</span>{" "}
+              <span className="text-primary">CEO</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Leading Aguilar AMD into the future with visionary leadership and
+              technical excellence.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
+            <div className="order-2 lg:order-1">
+              <Card className="bg-gradient-to-br from-primary/10 to-amd-red-900/10 border-primary/20 hover:border-primary/40 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-primary/20">
+                <CardContent className="p-8">
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center">
+                      <span className="text-2xl">👨‍💼</span>
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-primary">
+                        Exillow Sjöqvist
+                      </h3>
+                      <p className="text-muted-foreground text-lg">
+                        Chief Executive Officer
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                    As CEO of Aguilar AMD, I lead our mission to revolutionize
+                    computing through breakthrough innovation. With our flagship
+                    Ning architecture and strategic AMD partnership, we're
+                    defining the future of high-performance computing.
+                  </p>
+                  <div className="space-y-3">
+                    <div className="flex items-center text-sm text-primary">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      Leading global semiconductor innovation
+                    </div>
+                    <div className="flex items-center text-sm text-primary">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      Strategic partnership with Dr. Lisa Su & AMD
+                    </div>
+                    <div className="flex items-center text-sm text-primary">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      Pioneering Ning architecture development
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="order-1 lg:order-2 flex justify-center">
+              <div className="relative group">
+                <div className="absolute -inset-4 bg-gradient-to-r from-primary via-amd-red-500 to-primary rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                <div className="relative">
+                  <div className="w-80 h-96 bg-gradient-to-br from-primary/20 to-amd-red-900/20 rounded-2xl border-2 border-primary/30 flex items-center justify-center text-6xl backdrop-blur-sm hover:scale-105 transition-all duration-500 shadow-2xl">
+                    👨‍💼
+                  </div>
+                  <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2">
+                    <Badge className="bg-primary/10 text-primary border-primary/20 px-4 py-2">
+                      CEO Photo Placeholder
+                    </Badge>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CEO Quote */}
+          <div className="mt-16">
+            <Card className="bg-gradient-to-r from-primary/5 via-background to-amd-red-900/5 border-primary/30">
+              <CardContent className="p-8 text-center">
+                <blockquote className="text-2xl italic text-muted-foreground mb-6">
+                  "At Aguilar AMD, we don't just make processors—we craft the
+                  future. Our Ning architecture represents more than technical
+                  achievement; it's the foundation for tomorrow's digital
+                  experiences."
+                </blockquote>
+                <div className="flex items-center justify-center gap-4">
+                  <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                    <span className="text-lg">👨‍💼</span>
+                  </div>
+                  <div className="text-left">
+                    <div className="font-bold text-primary text-lg">
+                      Exillow Sjöqvist
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Chief Executive Officer, Aguilar AMD
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Leadership Team Preview */}
+          <div className="mt-20 text-center">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-8">
+              <span className="text-foreground">Leadership</span>{" "}
+              <span className="text-primary">Team</span>
+            </h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 group">
+                <CardContent className="p-6 text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-amd-red-900/20 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl border-2 border-primary/30 group-hover:scale-110 transition-all duration-300">
+                    👨‍💼
+                  </div>
+                  <h4 className="text-lg font-bold text-primary mb-2">
+                    Exillow Sjöqvist
+                  </h4>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Chief Executive Officer
+                  </p>
+                  <Badge variant="secondary" className="text-xs">
+                    CEO Portrait Placeholder
+                  </Badge>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 group">
+                <CardContent className="p-6 text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-amd-red-900/20 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl border-2 border-primary/30 group-hover:scale-110 transition-all duration-300">
+                    👩‍💼
+                  </div>
+                  <h4 className="text-lg font-bold text-primary mb-2">
+                    Dr. Lisa Su
+                  </h4>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Strategic Partner (AMD CEO)
+                  </p>
+                  <Badge variant="secondary" className="text-xs">
+                    Partner Portrait Placeholder
+                  </Badge>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-card/80 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 group">
+                <CardContent className="p-6 text-center">
+                  <div className="w-20 h-20 bg-gradient-to-br from-primary/20 to-amd-red-900/20 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl border-2 border-primary/30 group-hover:scale-110 transition-all duration-300">
+                    👨‍🔬
+                  </div>
+                  <h4 className="text-lg font-bold text-primary mb-2">
+                    Chief Technology Officer
+                  </h4>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    Ning Architecture Lead
+                  </p>
+                  <Badge variant="secondary" className="text-xs">
+                    CTO Portrait Placeholder
+                  </Badge>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Values */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
