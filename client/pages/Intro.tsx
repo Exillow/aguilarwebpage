@@ -28,7 +28,7 @@ export default function Intro() {
     // Auto-advance to home page
     const finalTimer = setTimeout(() => {
       if (!isSkipped) {
-        navigate("/");
+        navigate("/home");
       }
     }, 6500);
 
